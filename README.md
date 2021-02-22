@@ -1,6 +1,6 @@
-# Project Name
+# Project 2 Microverse
 
-> Project 1: Positioning and floating elements
+> Project 2: Building with responsive design.
   This is a clone of the New York Times. In this project i used flexbox, float and grid for positioning elements.
 
 ![screenshot](./images/app.screenshot.png)
