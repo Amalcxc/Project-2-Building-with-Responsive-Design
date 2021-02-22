@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://pountzas.github.io/Project-1-Positioning-and-Floating-Elements/)
+[Live Demo Link](https://github.com/pountzas/Project-2-Building-with-Responsive-Design.git)
 
 To get a local copy up and running follow these simple example steps.
 ### Setup
@@ -38,4 +38,3 @@ Feel free to check the [issues page](issues/).
 Give a ⭐️ if you like this project!
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
