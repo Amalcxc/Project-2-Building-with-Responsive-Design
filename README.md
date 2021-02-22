@@ -26,6 +26,10 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@pountzas](https://github.com/pountzas)
 - Twitter: [@pountzas20](https://twitter.com/pountzas20)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/nikos-pountzas-173ba4a8/)
+- GitHub: [@Amalcxc](https://github.com/Amalcxc)
+- Twitter: [@Amalcx4](https://twitter.com/home?lang=en)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/amal-hersi-a29583205/)
+
 
 ## 🤝 Contributing
 
