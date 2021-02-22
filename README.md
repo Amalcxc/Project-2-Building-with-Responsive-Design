@@ -1,7 +1,7 @@
 # Project 2 Microverse
 
 > Project 2: Building with responsive design.
-  This is a clone of the New York Times. In this project i used flexbox, float and grid for positioning elements.
+  This is a clone of the TheNextWeb archived by Perma.cc. In this project we used flexbox, float and grid for positioning elements and build with responsive design.
 
 ![screenshot](./images/app.screenshot.png)
 
@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 - open your Terminal, go to the desired folder and write the following commands
 
 - git init
-- git clone https://github.com/pountzas/Project-1-Positioning-and-Floating-Elements.git
+- git clone https://github.com/pountzas/Project-2-Building-with-Responsive-Design.git review
 
 👤 **Authors**
 
