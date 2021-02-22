@@ -32,70 +32,116 @@ a {
 
 /*NAV BAR*/
 
-
 .nav-logo {
   padding-top: 5px;
   background-color: black;
   width: 100px;
-  
 }
+
 .nav-menu {
   flex-direction: column;
+  width: 100%;
+  
 }
+
 .nav-logo img {
   align-items: center;
   margin: 15px;
 }
 
+.nav-logo-list {
+  padding-left: 15px;
+  font-size: small;
+  
+}
+
+.nav-logo-list a,
+.nav-about a,
+.white-bar-text a,
+.yellow-bar a {
+  padding-right: 10px;
+}
+
+.nav-about {
+  font-size: small;
+}
+
+.nav-icons {
+  border-left: 1px solid rgb(190, 190, 190);
+}
+
 .nav-icons img {
   width: 30px;
   align-items: center;
+  padding-left: 5px;
 }
 
 .black-bar {
   background-color: black;
+  height: 32px;
+  align-items: center;
+  justify-content: left;
+}
+
+.white-bar {
+  height: 48px;
+  align-items: center;
   
 }
 
 .white-bar {
+  justify-content: space-between;
+  font-size: small;
   
+}
+
+.white-bar-text {
+  padding-left: 15px;
+}
+
+.white-bar a {
+  color: rgb(184, 54, 54);
 }
 
 .black-bar a {
   color: white;
 }
 
+.yellow-bar {
+  background-color: yellow;
+  height: 60px;
+  align-items: center;
+}
+
+
 /*NAV Media*/
 @media only screen and (max-width: 767px) {
   .black-bar,
-  .white-bar,
-  .nav-icans {
+  .white-bar-text {
     display: none;
   }
 }
 
 @media only screen and (max-width: 1023px) {
-  .menu {
+  .white-bar-sec-text {
     display: none;
+  }
+  .yellow-bar {
+    height: 30px;
   }
 }
 
 @media only screen and (min-width: 1024px) {
-  .nav-logo, {
+  .menu,
+  .nav-logo {
     display: none;
   }
 }
+
 /* FOOTER*/
-
-
-
-
-
 .first-footer {
   background-color: #555;
   padding-bottom: 30px;
-  
-
 }
 
 .first-footer ul {
@@ -103,11 +149,7 @@ a {
   display: table;
   margin: 0 auto;
   list-style-type: none;
-
- 
-
 }
-
 
 .social li a {
   background: #333;
@@ -115,46 +157,26 @@ a {
   padding: 16px;
   color: white;
   margin-left: 10px;
-
 }
 
 .second-ul li a {
   font-size: 16px;
   color: white;
   margin-left: 20px;
-
-
 }
-
-
-
 
 .first-footer li{
   float: left;
- 
- 
-  
 }
-
-
-
-
-
-
 
 .second-footer{
   background-color: black;
   height: 100%;
   width: 100%;
   padding-bottom: 7px;
-
-
-
 }
 
-
 .contant-footer {
-  display: flex;
   justify-content: center;
   padding: 20px 0;
   background-color: #000;
@@ -162,7 +184,6 @@ a {
 
 .footer-logo {
   height: 9px;
- 
 }
 
 .footer-p{
@@ -173,14 +194,6 @@ a {
   padding: 0 85px;
   text-align: center;
 }
-
-
-a {
-  text-decoration: none;
-
-
-}
-
 
 @media only screen and (max-width: 600px){
   .social li {
@@ -194,6 +207,4 @@ a {
   .second-ul li {
       margin-left: 12px;
   }
-
-
 }
