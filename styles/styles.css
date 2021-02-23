@@ -105,11 +105,19 @@ a {
   padding-left: 15px;
 }
 
+.white-bar-sec-text {
+  display: none;
+}
+
 .white-bar a {
   color: grey;
   font-weight: 100;
 }
-
+/*
+.menu-icon {
+  display: block;
+}
+*/
 .black-bar a {
   color: white;
 }
@@ -128,7 +136,6 @@ a {
 
 /*NAV Media*/
 @media only screen and (max-width: 767px) {
-  
   .black-bar,
   .white-bar-text {
     display: none;
@@ -144,12 +151,7 @@ a {
 
 }
 
-@media only screen and (max-width: 1023px) {
-  .menu-icon,
-  .white-bar-sec-text {
-    display: none;
-  }
-
+@media only screen and (min-width: 768px) {
   .yellow-bar {
     height: 30px;
   }
@@ -159,13 +161,19 @@ a {
   }
 }
 
-
 @media only screen and (min-width: 1024px) {
-  .menu-icon,
   .nav-logo {
     display: none;
   }
 
+  .white-bar-sec-text {
+    display: block;
+  }
+  
+  .menu-icon {
+    display: none;
+  }
+  
   .nav-about {
     padding-left: 45%;
   }
@@ -250,6 +258,10 @@ a {
 }
 
 /* FUNDING*/
+.funding {
+  padding-left: 25px;
+}
+
 .funding-title a {
   color: red;
   margin: 15px;
@@ -257,27 +269,26 @@ a {
 }
 
 .funding-title{
-  padding-left: 15px;
+  
 }
 
-.funding-list{
-  padding: 8px;
+.funding-list {
+  padding: 8px 8px 8px 0;
   max-width: 100%;
 }
 
 .funding-element {
   margin-bottom: 15px;
- 
-  
-
 }
-
 
 .funding-element img {
   width: 50px;
   position: absolute;
   margin: 10px;
-  
+}
+
+.fun-elem-4th {
+  display: none;
 }
 
 .funding-h3 {
@@ -287,7 +298,6 @@ a {
  
 }
 
-
 .funding-h3 h3 {
   margin-left: 57px;
 }
@@ -296,21 +306,15 @@ a {
   margin-left: 47px;
 }
 
-
-
-
 .funding-money {
   background-color: rgba(255,68,34,.08);
   padding: 20px;
   padding-top:2px;
-  
 }
 
 .funding-money h5 {
   font-size:12px;
   font-weight: 200;
- 
-
 }
 
 .funding-links {
@@ -318,51 +322,53 @@ a {
   padding: 20px;
 }
 
-
 .funding-links a {
   color: black;
   margin: 5px;
   padding-bottom: 5px;
   font-weight: 200;
   font-size: 15px;
-
 }
 
 .funding-desc {
   border-top: 1px solid red;
   background-color: rgba(238, 191, 182, 0.08);
   padding: 10px;
-  
-
 }
 
 .funding-desc p {
   font-weight: 200;
   font-size: 12px;
-  
-
 }
 
 @media only screen and (max-width: 767px) {
-  .funding-element {
-    
-  }
-  .funding-title{
-    
-   
-  }
+
 }
 
 
 
-@media only screen and (max-width: 1023px) {
-  .funding-element {
+@media only screen and (min-width: 768px) {
+  .funding-list  {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    max-width: 1192px;
     
   }
+  .funding,
+  .funding-title,
+  .funding-tags {
+    display: flex;
+    
+  }
+  .funding,
+  .funding-title {
+    flex-direction: column;
+  }
 
-
-
-  
+  .funding-element {
+    margin-left: 15px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -371,20 +377,23 @@ a {
     grid-template-columns: repeat(4, 1fr);
     margin: 0 auto;
     max-width: 1192px;
-    padding: 0 20px;
-
+    
   }
+
+  .funding-title {
+    /*margin:  0 auto 0 60px;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
   .funding-element {
     margin-left: 15px;
-
   }
-  .funding-title {
-   
 
-    
-    
+  .fun-elem-4th {
+    display: block;
   }
- 
 }
 
 /* FOOTER*/
