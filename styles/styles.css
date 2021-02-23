@@ -124,7 +124,7 @@ a {
 }
 
 .yellow-bar li {
-  font-family: 'Arial Narrow', Arial, sans-serif; 
+  font-family: 'Arial Narrow', Arial, sans-serif;
   font-size: 14px;
 }
 
@@ -175,60 +175,60 @@ a {
 /* Highlights */
 @media only screen and (max-width: 767px) {
   .header1 {
-      position: absolute;
-      bottom: 4px;
-      font-size: 15px;
-      color: #fff;
-      left: 8px;
-      display: block;
+    position: absolute;
+    bottom: 4px;
+    font-size: 15px;
+    color: #fff;
+    left: 8px;
+    display: block;
   }
 
   .logo {
-      display: none;
+    display: none;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .grid-one {
-      display: grid;
-      grid-template-columns: 70% 30%;
+    display: grid;
+    grid-template-columns: 70% 30%;
   }
 
   .header1 {
-      position: absolute;
-      bottom: 4px;
-      font-size: 15px;
-      color: #fff;
-      left: 8px;
+    position: absolute;
+    bottom: 4px;
+    font-size: 15px;
+    color: #fff;
+    left: 8px;
   }
 
    .logo {
-     display: none;
+    display: none;
   }
 }
 
 @media only screen and (min-width: 1024px) {
   .logo {
-      display: block;
-      position: absolute;
-      z-index: 3;
-      top: 24px;
-      left: 12px;
-      height: 126px;
-      width: 487px;
+    display: block;
+    position: absolute;
+    z-index: 3;
+    top: 24px;
+    left: 12px;
+    height: 126px;
+    width: 487px;
   }
 
   .grid-one {
-      display: grid;
-      grid-template-columns: 70% 30%;
+    display: grid;
+    grid-template-columns: 70% 30%;
   }
 
   .header1 {
-      position: absolute;
-      bottom: 4px;
-      font-size: 20px;
-      color: #fff;
-      left: 8px;
+    position: absolute;
+    bottom: 4px;
+    font-size: 20px;
+    color: #fff;
+    left: 8px;
   }
 }
 
@@ -237,11 +237,10 @@ a {
   background-repeat: no-repeat;
   min-height: 30vh;
   position: relative;
-  padding-top: 120px;
+  padding: 120px 0 0 0;
   margin: 5px;
   background-size: cover;
   background-position: 50%;
-  padding: 0;
   box-sizing: border-box;
 }
 
@@ -332,14 +331,14 @@ a {
     grid-template-columns: repeat(3, 1fr);
     margin: 0 auto;
     max-width: 1192px;
-    
   }
+
   .funding,
   .funding-title,
   .funding-tags {
     display: flex;
-    
   }
+
   .funding,
   .funding-title {
     flex-direction: column;
@@ -368,7 +367,6 @@ a {
 
   .funding-title h2 {
     vertical-align: middle;
-    
   }
   
   .funding-element {
@@ -418,11 +416,11 @@ a {
   margin-left: 20px;
 }
 
-.first-footer li{
+.first-footer li {
   float: left;
 }
 
-.second-footer{
+.second-footer {
   background-color: black;
   height: 100%;
   width: 100%;
@@ -439,7 +437,7 @@ a {
   height: 9px;
 }
 
-.footer-p{
+.footer-p {
   display: block;
   color: #aaa;
   height: 58px;
@@ -448,7 +446,7 @@ a {
   text-align: center;
 }
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 767px) {
   .social li {
     margin-left: 7px;
   }
