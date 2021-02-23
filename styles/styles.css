@@ -250,54 +250,141 @@ a {
 }
 
 /* FUNDING*/
+.funding-title a {
+  color: red;
+  margin: 15px;
+  
+}
+
+.funding-title{
+  padding-left: 15px;
+}
+
 .funding-list{
   padding: 8px;
   max-width: 100%;
 }
 
 .funding-element {
+  margin-bottom: 15px;
+ 
   
 
 }
 
+
 .funding-element img {
   width: 50px;
+  position: absolute;
+  margin: 10px;
+  
 }
 
 .funding-h3 {
   color: white;
   background-color: red;
-
+  padding: 10px;
+ 
 }
+
+
+.funding-h3 h3 {
+  margin-left: 57px;
+}
+
+.money-text  {
+  margin-left: 47px;
+}
+
+
+
 
 .funding-money {
   background-color: rgba(255,68,34,.08);
+  padding: 20px;
+  padding-top:2px;
+  
+}
+
+.funding-money h5 {
+  font-size:12px;
+  font-weight: 200;
+ 
+
 }
 
 .funding-links {
-  background-color: rgba(255, 208, 199, 0.08);
+  background-color: rgba(245, 198, 189, 0.08);
+  padding: 20px;
+}
+
+
+.funding-links a {
+  color: black;
+  margin: 5px;
+  padding-bottom: 5px;
+  font-weight: 200;
+  font-size: 15px;
+
 }
 
 .funding-desc {
-  background-color: rgba(255, 208, 199, 0.08);
+  border-top: 1px solid red;
+  background-color: rgba(238, 191, 182, 0.08);
+  padding: 10px;
+  
+
+}
+
+.funding-desc p {
+  font-weight: 200;
+  font-size: 12px;
+  
+
 }
 
 @media only screen and (max-width: 767px) {
   .funding-element {
     
   }
-}
-
-@media only screen and (max-width: 1023x) {
-  .funding-element {
+  .funding-title{
     
+   
   }
 }
 
-@media only screen and (max-width: 1023x) {
+
+
+@media only screen and (max-width: 1023px) {
   .funding-element {
     
   }
+
+
+
+  
+}
+
+@media only screen and (min-width: 1024px) {
+  .funding-list  {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+
+  }
+  .funding-element {
+    margin-left: 15px;
+
+  }
+  .funding-title {
+   
+
+    
+    
+  }
+ 
 }
 
 /* FOOTER*/
