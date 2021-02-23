@@ -12,7 +12,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://pountzas.github.io/Project-1-Positioning-and-Floating-Elements/)
+[Live Demo Link](https://pountzas.github.io/Project-2-Building-with-Responsive-Design/)
 
 To get a local copy up and running follow these simple example steps.
 ### Setup
