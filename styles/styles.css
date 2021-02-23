@@ -32,13 +32,11 @@ li {
 
 a {
   text-decoration: none;
-  /*color: black;*/
 }
 
-/*NAV BAR*/
+/* NAV BAR */
 .nav {
   flex-direction: column;
-  padding-bottom: 20px;/**/
 }
 
 .nav-logo {
@@ -130,7 +128,7 @@ a {
   font-size: 14px;
 }
 
-/*NAV Media*/
+/* NAV Media */
 @media only screen and (max-width: 767px) {
   .black-bar,
   .white-bar-text {
@@ -174,7 +172,7 @@ a {
   }
 }
 
-/* Highlights*/
+/* Highlights */
 @media only screen and (max-width: 767px) {
   .header1 {
       position: absolute;
@@ -247,7 +245,7 @@ a {
   box-sizing: border-box;
 }
 
-/* FUNDING*/
+/* FUNDING */
 .funding {
   padding-left: 25px;
 }
@@ -353,6 +351,14 @@ a {
 }
 
 @media only screen and (min-width: 1024px) {
+  .funding  {
+    display: grid;
+    grid-template-rows: 17% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+  }
+
   .funding-list  {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -360,15 +366,24 @@ a {
     max-width: 1192px;
   }
 
-  .funding-title {
-    /*margin:  0 auto 0 60px;*/
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+  .funding-title h2 {
+    vertical-align: middle;
+    
   }
-
+  
   .funding-element {
     margin-left: 15px;
+  }
+
+  .funding-title {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .funding-tags {
+    display: flex;
+    flex-direction: row;
+    margin: 13px 0 0 auto;
   }
 
   .fun-elem-4th {
@@ -376,7 +391,7 @@ a {
   }
 }
 
-/* FOOTER*/
+/* FOOTER */
 .first-footer {
   background-color: #555;
   padding-bottom: 30px;
