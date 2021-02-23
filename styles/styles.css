@@ -142,7 +142,7 @@ a {
     padding-left: 5%;
   }
 
-  }
+}
 
 @media only screen and (max-width: 1023px) {
   .menu-icon,
@@ -174,35 +174,27 @@ a {
 
 /* Highlights*/
 
-@media only screen and (max-width: 790px) {
- 
+@media only screen and (max-width: 767px) {
   .header1 {
       position: absolute;
       bottom: 4px;
       font-size: 15px;
       color: #fff;
       left: 8px;
-      
+      display: block;
   }
 
   .logo {
       display: none;
-      
   }
-
-  
-
 }
 
 
-@media only screen and (min-width: 800px) {
-
+@media only screen and (min-width: 768px) {
   .grid-one {
       display: grid;
       grid-template-columns: 70% 30%;
-
   }
-
 
   .header1 {
       position: absolute;
@@ -210,28 +202,15 @@ a {
       font-size: 15px;
       color: #fff;
       left: 8px;
-
-      
   }
 
- 
    .logo {
      display: none;
       
   }
-
-  
-
-
-
 }
 
-
-
-
 @media only screen and (min-width: 1024px) {
-
-
   .logo {
       display: block;
       position: absolute;
@@ -240,16 +219,13 @@ a {
       left: 12px;
       height: 126px;
       width: 487px;
-
   }
 
 
   .grid-one {
       display: grid;
       grid-template-columns: 70% 30%;
-
   }
-
 
   .header1 {
       position: absolute;
@@ -257,15 +233,8 @@ a {
       font-size: 20px;
       color: #fff;
       left: 8px;
-
-      
   }
- 
-
 }
-
-
-
 
 .cover-image {
   background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-5-796x417.png");
@@ -278,11 +247,58 @@ a {
   background-position: 50%;
   padding: 0;
   box-sizing: border-box;
- 
 }
 
+/* FUNDING*/
+.funding-list{
+  padding: 8px;
+  max-width: 100%;
+}
 
+.funding-element {
+  
 
+}
+
+.funding-element img {
+  width: 50px;
+}
+
+.funding-h3 {
+  color: white;
+  background-color: red;
+
+}
+
+.funding-money {
+  background-color: rgba(255,68,34,.08);
+}
+
+.funding-links {
+  background-color: rgba(255, 208, 199, 0.08);
+}
+
+.funding-desc {
+  background-color: rgba(255, 208, 199, 0.08);
+}
+
+@media only screen and (max-width: 767px) {
+  .funding-element {
+    
+  }
+}
+
+@media only screen and (max-width: 1023x) {
+  .funding-element {
+    
+  }
+}
+
+@media only screen and (max-width: 1023x) {
+  .funding-element {
+    
+  }
+}
 
 /* FOOTER*/
 .first-footer {
@@ -341,7 +357,7 @@ a {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 767px){
   .social li {
       margin-left: 7px;
   }
