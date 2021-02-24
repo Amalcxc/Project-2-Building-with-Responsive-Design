@@ -243,19 +243,17 @@ a {
     color: #fff;
     left: 8px;
   }
+
   .red {
     display: block;
     position: absolute;
-    background-repeat: no-repeat;
     top: 0;
     width: 100%;
     height: 100%;
-    background: #ff0000;
+    background: rgb(214, 23, 23);
     background-position: 0 0;
     opacity: 46%;
-
   }
- 
 }
 
 .cover-image {
@@ -305,6 +303,7 @@ a {
   background-color: red;
   padding: 10px;
 }
+
 .funding-h3 a {
   color: white;
 }
