@@ -38,6 +38,14 @@ a {
 
 .nav {
   flex-direction: column;
+  top: 0;
+  position: fixed;
+  overflow: hidden;
+  z-index: 100;
+  width: 100%;
+  background-color: white;
+  justify-content: space-between;
+  box-shadow: 0 1px 10px grey;
 }
 
 .nav-logo {
@@ -70,7 +78,6 @@ a {
 
 .nav-about {
   font-size: small;
-  padding-left: 15%;
 }
 
 .nav-icons {
@@ -175,6 +182,11 @@ a {
 }
 
 /* Highlights */
+.grid-one {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  padding-top: 120px;
+}
 
 @media only screen and (max-width: 767px) {
   .header1 {
