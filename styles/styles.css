@@ -245,9 +245,9 @@ a {
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgb(214, 23, 23);
     background-position: 0 0;
-    opacity: 46%;
+    opacity: 70%;
+    background-image: linear-gradient(to left top, transparent, rgb(255, 0, 0));
   }
 }
 
