@@ -183,8 +183,6 @@ a {
 
 /* Highlights */
 .grid-one {
-  display: grid;
-  grid-template-columns: 70% 30%;
   padding-top: 120px;
 }
 
@@ -245,6 +243,19 @@ a {
     color: #fff;
     left: 8px;
   }
+  .red {
+    display: block;
+    position: absolute;
+    background-repeat: no-repeat;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #ff0000;
+    background-position: 0 0;
+    opacity: 46%;
+
+  }
+ 
 }
 
 .cover-image {
@@ -293,6 +304,17 @@ a {
   color: white;
   background-color: red;
   padding: 10px;
+}
+.funding-h3 a {
+  color: white;
+}
+
+.funding-money a {
+  color: black;
+}
+
+.funding-desc a {
+  color: black;
 }
 
 .funding-h3 h3 {
