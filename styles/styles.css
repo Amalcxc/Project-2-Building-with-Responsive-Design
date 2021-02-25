@@ -496,18 +496,23 @@ a {
   width: 450px;
 }
 
-.jack-ma-innertext h5 a {
-  font-size: 21px;
+.news-text a {
+  text-decoration: none;
+  color: black;
 }
 
-.jack-ma-innertext h5 {
-  color: red;
-  font-weight: lighter;
+.jack-ma-innertext h5 a {
+  font-size: 21px;
 }
 
 .jack-ma-innertext a {
   color: red;
   font-weight: bold;
+}
+
+.jack-ma-innertext h5 {
+  color: red;
+  font-weight: lighter;
 }
 
 .jack-ma {
@@ -584,11 +589,6 @@ a {
   padding-left: 10px;
   font-size: 14px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.news-text a {
-  text-decoration: none;
-  color: black;
 }
 
 .grid-items {
