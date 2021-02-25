@@ -137,8 +137,7 @@ a {
 }
 
 /* NAV Media */
-.black-bar,
-.white-bar-text {
+.black-bar, .white-bar-text {
   display: none;
 }
 
@@ -179,6 +178,7 @@ a {
 }
 
 /* Highlights */
+
 .grid-one {
   padding-top: 120px;
 }
@@ -263,14 +263,10 @@ a {
   box-sizing: border-box;
 }
 
-
 /* Latest news */
-
-
 .latest-news {
   padding-left: 10px;
 }
-
 
 .news-photo {
   background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Pinterest-Bundle-540x270.jpg);
@@ -279,7 +275,7 @@ a {
   width: 75px;
   height: 75px;
   padding: 10px;
-  margin: 7px; 
+  margin: 7px;
 }
 
 .news-text {
@@ -301,26 +297,23 @@ a {
   color: red;
   font-size: 13px;
   padding-bottom: 10px;
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 .news-text h4 {
   font-size: 10px;
   padding-right: 10px;
   padding-top: 10px;
-   
 }
 
 .news-text h4 a,
-.news-text h5 {
+ .news-text h5 {
   color: grey;
-  
 }
 
 .news-text h5 {
   font-size: 10px;
   padding-top: 10px;
-  
 }
 
 .news-text h3 {
@@ -329,7 +322,6 @@ a {
   font-size: 14px;
   padding-top: 10px;
 }
-
 
 @media only screen and (min-width: 1024px) {
   .latest-news {
@@ -355,7 +347,6 @@ a {
     width: 274px;
     height: 150px;
   }
-
   .news-text h3 {
     width: 250px;
     font-weight: 400;
@@ -364,12 +355,9 @@ a {
   .news-title {
     font-size: 14px;
   }
-
 }
 
-
 /* FUNDING */
-
 .funding {
   padding-left: 25px;
 }
@@ -467,14 +455,11 @@ a {
     max-width: 1192px;
   }
 
-  .funding,
-  .funding-title,
-  .funding-tags {
+  .funding, .funding-title, .funding-tags {
     display: flex;
   }
 
-  .funding,
-  .funding-title {
+  .funding, .funding-title {
     flex-direction: column;
   }
 
@@ -523,7 +508,6 @@ a {
   }
 }
 
-
 /* Categories */
 .categories {
   padding-left: 25px;
@@ -533,8 +517,8 @@ a {
 .categ-title {
   color: red;
   padding-bottom: 10px;
-
 }
+
 .categ-black {
   display: block;
   position: absolute;
@@ -544,7 +528,6 @@ a {
   background-position: 0 0;
   opacity: 70%;
   background-image: linear-gradient(to left top, transparent, rgb(0, 0, 0));
-
 }
 
 .categ-imag-box {
@@ -557,7 +540,6 @@ a {
   background-size: cover;
   background-position: 50%;
   box-sizing: border-box;
-  
 }
 
 .categ-header {
@@ -571,11 +553,6 @@ a {
 .categ-header {
   font-size: 22px;
   font-weight: bolder;
-}
-
-.categ-fig {
-  
- 
 }
 
 .categ-fig-text {
@@ -607,7 +584,6 @@ a {
 .jack-ma-innertext a {
   color: red;
   font-weight: bold;
-  
 }
 
 .jack-ma {
@@ -639,13 +615,12 @@ a {
   color: black;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
-  
 }
+
 /* Categories Media */
 @media only screen and (min-width: 768px) {
   .categ-imag-box {
     width: 92vw;
-      
   }
 
   .jack-ma-div {
@@ -676,28 +651,12 @@ a {
     flex-basis: 20%;
     max-width: 100%;
     flex-flow: row wrap;
-    
     padding: 0 150px;
-    
   }
 
   .categorie-article {
-    
     margin: 0 auto;
-    
   }
-  /*
-   margin: 0 auto;
-    max-width: 1192px;
-    padding: 0 20px;
-    padding-top: 25px;
-  }
-
-  .latest-deals-items {
-    display: flex;
-    flex-flow: row wrap;
-    
-  }*/
 }
 
 /* Latest Deals */
@@ -712,7 +671,7 @@ a {
   width: 75px;
   height: 75px;
   padding: 10px;
-  margin: 7px; 
+  margin: 7px;
 }
 
 .deals-title {
@@ -720,27 +679,24 @@ a {
   font-size: 13px;
   padding-bottom: 10px;
   padding-top: 10px;
-  margin-bottom: 25px; 
-
+  margin-bottom: 25px;
 }
 
 .deals-title h2 {
   float: left;
-  
 }
 
 .line h4 {
-  color:rgb(128, 128, 128);
+  color: rgb(128, 128, 128);
   text-decoration: line-through;
   font-size: 14px;
-  font-weight:100;
+  font-weight: 100;
 }
 
 .line h5 {
-  color:#000;
-  font-weight:100;
+  color: #000;
+  font-weight: 100;
   font-size: 14px;
-
 }
 
 .latest-items {
@@ -752,12 +708,12 @@ a {
   line-height: 18px;
   margin-right: 10px;
   font-size: 15px;
-  color:rgb(255, 0, 0);
+  color: rgb(255, 0, 0);
 }
+
 .yellow p {
   display: none;
 }
-
 
 @media only screen and (min-width: 1024px) {
   .latest-deals {
@@ -772,7 +728,6 @@ a {
   .latest-deals-items {
     display: flex;
     flex-flow: row wrap;
-    
   }
 
   .latest-items {
@@ -805,7 +760,6 @@ a {
     position: absolute;
     top: 0;
     right: 0;
-  
   }
 
   .yellow p {
@@ -816,21 +770,10 @@ a {
     right: 5px;
     font-weight: bold;
     padding-bottom: 8px;
-    
   }
-
-
-
 }
 
-
-
-
-
-
-
 /* FOOTER */
-
 .first-footer {
   background-color: #555;
   padding-bottom: 30px;
