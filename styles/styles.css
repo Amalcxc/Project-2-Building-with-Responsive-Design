@@ -137,7 +137,8 @@ a {
 }
 
 /* NAV Media */
-.black-bar, .white-bar-text {
+.black-bar,
+.white-bar-text {
   display: none;
 }
 
@@ -263,100 +264,6 @@ a {
   box-sizing: border-box;
 }
 
-/* Latest news */
-.latest-news {
-  padding-left: 10px;
-}
-
-.news-photo {
-  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Pinterest-Bundle-540x270.jpg);
-  background-size: cover;
-  background-position: 50%;
-  width: 75px;
-  height: 75px;
-  padding: 10px;
-  margin: 7px;
-}
-
-.news-text {
-  padding-left: 10px;
-  font-size: 14px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.news-text a {
-  text-decoration: none;
-  color: black;
-}
-
-.grid-items {
-  display: flex;
-}
-
-.news-title {
-  color: red;
-  font-size: 13px;
-  padding-bottom: 10px;
-  padding-top: 10px;
-}
-
-.news-text h4 {
-  font-size: 10px;
-  padding-right: 10px;
-  padding-top: 10px;
-}
-
-.news-text h4 a,
- .news-text h5 {
-  color: grey;
-}
-
-.news-text h5 {
-  font-size: 10px;
-  padding-top: 10px;
-}
-
-.news-text h3 {
-  width: 90%;
-  font-weight: 500;
-  font-size: 14px;
-  padding-top: 10px;
-}
-
-@media only screen and (min-width: 1024px) {
-  .latest-news {
-    display: grid;
-    grid-template-rows: 10% 90%;
-    margin: 0 auto;
-    max-width: 1192px;
-    padding: 0 20px;
-    padding-top: 25px;
-  }
-
-  .news-grid {
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-  .grid-items {
-    display: block;
-    padding-bottom: 13px;
-  }
-
-  .news-photo {
-    width: 274px;
-    height: 150px;
-  }
-  .news-text h3 {
-    width: 250px;
-    font-weight: 400;
-  }
-
-  .news-title {
-    font-size: 14px;
-  }
-}
-
 /* FUNDING */
 .funding {
   padding-left: 25px;
@@ -455,11 +362,14 @@ a {
     max-width: 1192px;
   }
 
-  .funding, .funding-title, .funding-tags {
+  .funding,
+  .funding-title,
+  .funding-tags {
     display: flex;
   }
 
-  .funding, .funding-title {
+  .funding,
+  .funding-title {
     flex-direction: column;
   }
 
@@ -508,6 +418,103 @@ a {
   }
 }
 
+/* Latest news */
+.latest-news {
+  padding-left: 10px;
+}
+
+.news-photo {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Pinterest-Bundle-540x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  margin: 7px;
+}
+
+.news-text {
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.news-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.grid-items {
+  display: flex;
+}
+
+.news-title {
+  color: red;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.news-text h4 {
+  font-size: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.news-text h4 a,
+.news-text h5 {
+  color: grey;
+}
+
+.news-text h5 {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.news-text h3 {
+  width: 90%;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 1024px) {
+  .latest-news {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .news-grid {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .grid-items {
+    display: block;
+    padding-bottom: 13px;
+  }
+
+  .news-photo {
+    width: 274px;
+    height: 150px;
+  }
+
+  .news-text h3 {
+    width: 250px;
+    font-weight: 400;
+  }
+
+  .news-title {
+    font-size: 14px;
+  }
+}
+
+
+
 /* Categories */
 .categories {
   padding-left: 25px;
@@ -546,13 +553,9 @@ a {
   position: absolute;
   bottom: 15px;
   left: 15px;
-  font-size: 15px;
-  color: rgb(255, 255, 255);
-}
-
-.categ-header {
   font-size: 22px;
   font-weight: bolder;
+  color: rgb(255, 255, 255);
 }
 
 .categ-fig-text {
