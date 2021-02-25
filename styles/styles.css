@@ -523,7 +523,187 @@ a {
   }
 }
 
+
+/* Categories */
+.categories {
+  padding-left: 25px;
+  width: 97vw;
+}
+
+.categ-title {
+  color: red;
+  padding-bottom: 10px;
+
+}
+.categ-black {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: 0 0;
+  opacity: 70%;
+  background-image: linear-gradient(to left top, transparent, rgb(0, 0, 0));
+
+}
+
+.categ-imag-box {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Yacht-hed-368x276.jpg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 93.5vw;
+  position: relative;
+  padding: 120px 0 0 0;
+  background-size: cover;
+  background-position: 50%;
+  box-sizing: border-box;
+  
+}
+
+.categ-header {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+}
+
+.categ-header {
+  font-size: 22px;
+  font-weight: bolder;
+}
+
+.categ-fig {
+  
+ 
+}
+
+.categ-fig-text {
+  padding-top: 3px;
+}
+
+.jack-ma-div {
+  width: 97vw;
+  margin-top: 3px;
+  background-color: rgb(255, 217, 222);
+  position: relative;
+  padding-bottom: 26px;
+}
+
+.jack-ma-innertext {
+  padding: 10px 0 0 10px;
+  width: 450px;
+}
+
+.jack-ma-innertext h5 a {
+  font-size: 21px;
+}
+
+.jack-ma-innertext h5 {
+  color: red;
+  font-weight: lighter;
+}
+
+.jack-ma-innertext a {
+  color: red;
+  font-weight: bold;
+  
+}
+
+.jack-ma {
+  display: block;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-6.png");
+  height: 100px;
+  width: 100px;
+  border: 1px black;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.categ-list {
+  color: black;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.categ-list li {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  list-style-type: disc;
+  padding: 12px 0;
+}
+
+.categ-list a {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  
+}
+/* Categories Media */
+@media only screen and (min-width: 768px) {
+  .categ-imag-box {
+    width: 92vw;
+      
+  }
+
+  .jack-ma-div {
+    width: 92vw;
+  }
+
+  .categ-list {
+    width: 92vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .categ-imag-box {
+    width: 25vw;
+    height: 25vh;
+  }
+
+  .jack-ma-div {
+    width: 25vw;
+  }
+
+  .categ-list {
+    width: 25vw;
+  }
+
+  .categories {
+    display: flex;
+    flex-basis: 20%;
+    max-width: 100%;
+    flex-flow: row wrap;
+    
+    padding: 0 150px;
+    
+  }
+
+  .categorie-article {
+    
+    margin: 0 auto;
+    
+  }
+  /*
+   margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .latest-deals-items {
+    display: flex;
+    flex-flow: row wrap;
+    
+  }*/
+}
+
 /* Latest Deals */
+.latest-deals {
+  padding-left: 25px;
+}
 
 .deals-photo {
   background-image: url("https://cdnp3.stackassets.com/b34f2af9e9ec3122eb0c0b252532b61f8a08c0ea/store/243275a3bf8c7d20203d2e6e3b9f3664926f9f8913e755d1ae8811aecd9b/sale_25748_primary_image.jpg");
@@ -592,7 +772,7 @@ a {
   .latest-deals-items {
     display: flex;
     flex-flow: row wrap;
-
+    
   }
 
   .latest-items {
