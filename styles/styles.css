@@ -501,13 +501,13 @@ a {
   color: black;
 }
 
-.jack-ma-innertext h5 a {
-  font-size: 21px;
-}
-
 .jack-ma-innertext a {
   color: red;
   font-weight: bold;
+}
+
+.jack-ma-innertext h5 a {
+  font-size: 21px;
 }
 
 .jack-ma-innertext h5 {
