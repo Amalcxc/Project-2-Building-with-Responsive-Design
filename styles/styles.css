@@ -314,6 +314,7 @@ a {
 .news-text h4 a,
 .news-text h5 {
   color: grey;
+  
 }
 
 .news-text h5 {
@@ -521,6 +522,132 @@ a {
     display: block;
   }
 }
+
+/* Latest Deals */
+
+.deals-photo {
+  background-image: url("https://cdnp3.stackassets.com/b34f2af9e9ec3122eb0c0b252532b61f8a08c0ea/store/243275a3bf8c7d20203d2e6e3b9f3664926f9f8913e755d1ae8811aecd9b/sale_25748_primary_image.jpg");
+  background-size: cover;
+  background-position: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  margin: 7px; 
+}
+
+.deals-title {
+  color: red;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 25px; 
+
+}
+
+.deals-title h2 {
+  float: left;
+  
+}
+
+.line h4 {
+  color:rgb(128, 128, 128);
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight:100;
+}
+
+.line h5 {
+  color:#000;
+  font-weight:100;
+  font-size: 14px;
+
+}
+
+.latest-items {
+  display: flex;
+}
+
+.deals-see-more {
+  float: right;
+  line-height: 18px;
+  margin-right: 10px;
+  font-size: 15px;
+  color:rgb(255, 0, 0);
+}
+.yellow p {
+  display: none;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .latest-deals {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .latest-deals-items {
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+
+  .latest-items {
+    display: block;
+    padding-bottom: 13px;
+    position: relative;
+  }
+
+  .deals-photo {
+    width: 274px;
+    height: 150px;
+  }
+
+  .news-text h3 {
+    width: 250px;
+    font-weight: 400;
+  }
+
+  .news-title {
+    font-size: 14px;
+  }
+
+  .yellow {
+    width: 80px;
+    height: 80px;
+    background-image: url(https://raw.githubusercontent.com/jpdf00/Html-and-CSS-2.0-Project-2-Building-with-Responsive-Design/main/assets/imgs/triangle.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+  
+  }
+
+  .yellow p {
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 22px;
+    right: 5px;
+    font-weight: bold;
+    padding-bottom: 8px;
+    
+  }
+
+
+
+}
+
+
+
+
+
+
 
 /* FOOTER */
 
