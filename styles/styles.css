@@ -197,10 +197,23 @@ a {
   display: none;
 }
 
+.cover-image {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-5-796x417.png");
+  background-repeat: no-repeat;
+  min-height: 30vh;
+  position: relative;
+  padding: 120px 0 0 0;
+  margin: 5px;
+  background-size: cover;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
 @media only screen and (min-width: 768px) {
   .grid-one {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 50%;
   }
 
   .header1 {
@@ -250,18 +263,6 @@ a {
     opacity: 70%;
     background-image: linear-gradient(to left top, transparent, rgb(255, 0, 0));
   }
-}
-
-.cover-image {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-5-796x417.png");
-  background-repeat: no-repeat;
-  min-height: 30vh;
-  position: relative;
-  padding: 120px 0 0 0;
-  margin: 5px;
-  background-size: cover;
-  background-position: 50%;
-  box-sizing: border-box;
 }
 
 /* FUNDING */
@@ -531,15 +532,28 @@ a {
 /* Categories Media */
 @media only screen and (min-width: 768px) {
   .categ-imag-box {
-    width: 92vw;
+    width: 50vw;
+    height: 50vh;
   }
 
   .jack-ma-div {
-    width: 92vw;
+    width: 50vw;
   }
 
   .categ-list {
-    width: 92vw;
+    width: 50vw;
+  }
+
+  .categories {
+    display: flex;
+    
+    max-width: 100%;
+    flex-flow: row wrap;
+    padding: 0 150px;
+  }
+
+  .categorie-article {
+    margin: 0 auto;
   }
 }
 
@@ -623,6 +637,44 @@ a {
   font-weight: 500;
   font-size: 14px;
   padding-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .latest-news {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .news-grid {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .grid-items {
+    display: block;
+    padding-bottom: 13px;
+  }
+
+  .news-photo {
+    width: 210px;
+    height: 125px;
+  }
+
+  .news-text h3 {
+    width: 200px;
+    font-weight: 100;
+  }
+
+  .news-title {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 40px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
