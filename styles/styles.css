@@ -546,10 +546,9 @@ a {
 
   .categories {
     display: flex;
-    
     max-width: 100%;
     flex-flow: row wrap;
-    padding: 0 150px;
+    padding: 0 100px;
   }
 
   .categorie-article {
@@ -766,6 +765,104 @@ a {
 
 .yellow p {
   display: none;
+}
+/*
+
+@media only screen and (min-width: 768px) {
+  .latest-news {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .news-grid {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .grid-items {
+    display: block;
+    padding-bottom: 13px;
+  }
+
+  .news-photo {
+    width: 210px;
+    height: 125px;
+  }
+
+  .news-text h3 {
+    width: 200px;
+    font-weight: 100;
+  }
+
+  .news-title {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+}
+
+*/
+@media only screen and (min-width: 768px) {
+  .latest-deals {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .latest-deals-items {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .latest-items {
+    display: block;
+    padding-bottom: 13px;
+    position: relative;
+  }
+
+  .deals-photo {
+    width: 200px;
+    height: 140px;
+  }
+
+  .news-text h3 {
+    width: 190px;
+    font-weight: 100;
+  }
+
+  .news-title {
+    font-size: 13px;
+  }
+
+  .yellow {
+    width: 80px;
+    height: 80px;
+    background-image: url(https://raw.githubusercontent.com/jpdf00/Html-and-CSS-2.0-Project-2-Building-with-Responsive-Design/main/assets/imgs/triangle.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .yellow p {
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 22px;
+    right: 5px;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
