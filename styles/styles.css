@@ -179,6 +179,7 @@ a {
 }
 
 /* Highlights */
+
 .grid-one {
   padding-top: 120px;
 }
@@ -196,10 +197,23 @@ a {
   display: none;
 }
 
+.cover-image {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-5-796x417.png");
+  background-repeat: no-repeat;
+  min-height: 30vh;
+  position: relative;
+  padding: 120px 0 0 0;
+  margin: 5px;
+  background-size: cover;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
 @media only screen and (min-width: 768px) {
   .grid-one {
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100% 50%;
   }
 
   .header1 {
@@ -251,20 +265,7 @@ a {
   }
 }
 
-.cover-image {
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-5-796x417.png");
-  background-repeat: no-repeat;
-  min-height: 30vh;
-  position: relative;
-  padding: 120px 0 0 0;
-  margin: 5px;
-  background-size: cover;
-  background-position: 50%;
-  box-sizing: border-box;
-}
-
 /* FUNDING */
-
 .funding {
   padding-left: 25px;
 }
@@ -418,8 +419,483 @@ a {
   }
 }
 
-/* FOOTER */
+/* Categories */
+.categories {
+  padding-left: 25px;
+  width: 97vw;
+}
 
+.categ-title {
+  color: red;
+  padding-bottom: 10px;
+}
+
+.categ-black {
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-position: 0 0;
+  opacity: 70%;
+  background-image: linear-gradient(to left top, transparent, rgb(0, 0, 0));
+}
+
+.categ-imag-box {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Yacht-hed-368x276.jpg);
+  background-repeat: no-repeat;
+  height: 50vh;
+  width: 93.5vw;
+  position: relative;
+  padding: 120px 0 0 0;
+  background-size: cover;
+  background-position: 50%;
+  box-sizing: border-box;
+}
+
+.categ-header {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  font-size: 22px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+}
+
+.categ-fig-text {
+  padding-top: 3px;
+}
+
+.categ-list {
+  color: black;
+  padding-bottom: 30px;
+  padding-left: 20px;
+}
+
+.categ-list li {
+  border-bottom: 1px solid rgb(219, 219, 219);
+  list-style-type: disc;
+  padding: 12px 0;
+}
+
+.categ-list a {
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+}
+
+.jack-ma-div {
+  width: 97vw;
+  margin-top: 3px;
+  background-color: rgb(255, 217, 222);
+  position: relative;
+  padding-bottom: 26px;
+}
+
+.jack-ma-innertext {
+  padding: 10px 0 0 10px;
+  width: 450px;
+}
+
+.news-text a {
+  text-decoration: none;
+  color: black;
+}
+
+.jack-ma-innertext a {
+  color: red;
+  font-weight: bold;
+}
+
+.jack-ma-innertext h5 a {
+  font-size: 21px;
+}
+
+.jack-ma-innertext h5 {
+  color: red;
+  font-weight: lighter;
+}
+
+.jack-ma {
+  display: block;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Untitled-design-6.png");
+  height: 100px;
+  width: 100px;
+  border: 1px black;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  background-position: 50%;
+  background-size: cover;
+}
+
+/* Categories Media */
+@media only screen and (min-width: 768px) {
+  .categ-imag-box {
+    width: 40vw;
+    height: 18vh;
+  }
+
+  .jack-ma-div {
+    width: 40vw;
+  }
+
+  .categ-list {
+    width: 40vw;
+  }
+
+  .categories {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    padding-left: 50px;
+  }
+
+  .jack-ma-innertext {
+    width: 200px;
+    height: 92px;
+    line-height: 0.9;
+    font-weight: normal;
+  }
+
+  .jack-ma-innertext a {
+    font-weight: normal;
+    font-size: 14px;
+  }
+
+  .jack-ma {
+    height: 120px;
+    width: 120px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .categ-imag-box {
+    width: 25vw;
+    height: 25vh;
+  }
+
+  .jack-ma-div {
+    width: 25vw;
+  }
+
+  .categ-list {
+    width: 25vw;
+  }
+
+  .categories {
+    display: flex;
+    flex-basis: 20%;
+    max-width: 100%;
+    flex-flow: row wrap;
+  }
+
+  .categorie-article {
+    margin: 0 auto;
+  }
+}
+
+/* Latest news */
+.latest-news {
+  padding-left: 10px;
+}
+
+.news-photo {
+  background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2021/02/Pinterest-Bundle-540x270.jpg);
+  background-size: cover;
+  background-position: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  margin: 7px;
+}
+
+.news-text {
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.grid-items {
+  display: flex;
+}
+
+.news-title {
+  color: red;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+.news-text h4 {
+  font-size: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+
+.news-text h4 a,
+.news-text h5 {
+  color: grey;
+}
+
+.news-text h5 {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+.news-text h3 {
+  width: 90%;
+  font-weight: 500;
+  font-size: 14px;
+  padding-top: 10px;
+}
+
+@media only screen and (min-width: 768px) {
+  .latest-news {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .news-grid {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+  }
+
+  .grid-items {
+    display: block;
+    padding-bottom: 13px;
+  }
+
+  .news-photo {
+    width: 210px;
+    height: 125px;
+  }
+
+  .news-text h3 {
+    width: 200px;
+    font-weight: 100;
+  }
+
+  .news-title {
+    font-size: 13px;
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .latest-news {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .news-grid {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .grid-items {
+    display: block;
+    padding-bottom: 13px;
+  }
+
+  .news-photo {
+    width: 274px;
+    height: 150px;
+  }
+
+  .news-text h3 {
+    width: 250px;
+    font-weight: 400;
+  }
+
+  .news-title {
+    font-size: 14px;
+  }
+}
+
+/* Latest Deals */
+.latest-deals {
+  padding-left: 25px;
+}
+
+.deals-photo {
+  background-image: url("https://cdnp3.stackassets.com/b34f2af9e9ec3122eb0c0b252532b61f8a08c0ea/store/243275a3bf8c7d20203d2e6e3b9f3664926f9f8913e755d1ae8811aecd9b/sale_25748_primary_image.jpg");
+  background-size: cover;
+  background-position: 50%;
+  width: 75px;
+  height: 75px;
+  padding: 10px;
+  margin: 7px;
+}
+
+.deals-title {
+  color: red;
+  font-size: 13px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 25px;
+}
+
+.deals-title h2 {
+  float: left;
+}
+
+.line h4 {
+  color: rgb(128, 128, 128);
+  text-decoration: line-through;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.line h5 {
+  color: #000;
+  font-weight: 100;
+  font-size: 14px;
+}
+
+.latest-items {
+  display: flex;
+}
+
+.deals-see-more {
+  float: right;
+  line-height: 18px;
+  margin-right: 10px;
+  font-size: 15px;
+  color: rgb(255, 0, 0);
+}
+
+.yellow p {
+  display: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .latest-deals {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .latest-deals-items {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .latest-items {
+    display: block;
+    padding-bottom: 13px;
+    position: relative;
+  }
+
+  .deals-photo {
+    width: 200px;
+    height: 140px;
+  }
+
+  .news-text h3 {
+    width: 190px;
+    font-weight: 100;
+  }
+
+  .news-title {
+    font-size: 13px;
+  }
+
+  .yellow {
+    width: 80px;
+    height: 80px;
+    background-image: url(https://raw.githubusercontent.com/jpdf00/Html-and-CSS-2.0-Project-2-Building-with-Responsive-Design/main/assets/imgs/triangle.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .yellow p {
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 22px;
+    right: 5px;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .latest-deals {
+    display: grid;
+    grid-template-rows: 10% 90%;
+    margin: 0 auto;
+    max-width: 1192px;
+    padding: 0 20px;
+    padding-top: 25px;
+  }
+
+  .latest-deals-items {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .latest-items {
+    display: block;
+    padding-bottom: 13px;
+    position: relative;
+  }
+
+  .deals-photo {
+    width: 274px;
+    height: 150px;
+  }
+
+  .news-text h3 {
+    width: 250px;
+    font-weight: 400;
+  }
+
+  .news-title {
+    font-size: 14px;
+  }
+
+  .yellow {
+    width: 80px;
+    height: 80px;
+    background-image: url(https://raw.githubusercontent.com/jpdf00/Html-and-CSS-2.0-Project-2-Building-with-Responsive-Design/main/assets/imgs/triangle.png);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+
+  .yellow p {
+    display: block;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 22px;
+    right: 5px;
+    font-weight: bold;
+    padding-bottom: 8px;
+  }
+}
+
+/* FOOTER */
 .first-footer {
   background-color: #555;
   padding-bottom: 30px;
